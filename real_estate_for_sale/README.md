@@ -12,9 +12,51 @@
 - **Jupyter Notebook** - интерактивный анализ
 - **NumPy** - математические вычисления
 
-## Установка и запуск
+## Данные
+Датасет содержит 23 699 объявлений с 22 параметрами:
 
-1. Клонируйте репозиторий:
-```bash
-git clone https://github.com/your-username/real-estate-analysis.git
-cd real-estate-analysis
+### Основные характеристики:
+* total_images - количество фотографий
+
+* last_price - цена квартиры, руб.
+
+* total_area - общая площадь, м²
+
+* first_day_exposition - дата публикации
+
+* rooms - количество комнат
+
+* ceiling_height - высота потолков, м
+
+* floors_total - всего этажей в доме
+
+* living_area - жилая площадь, м²
+
+* floor - этаж квартиры
+
+* is_apartment - является ли апартаментами
+
+* studio - студия
+
+* open_plan - свободная планировка
+
+* kitchen_area - площадь кухни, м²
+
+* balcony - количество балконов
+
+### Локационные данные:
+* locality_name - населённый пункт
+
+* airports_nearest - расстояние до аэропорта, м
+
+* cityCenters_nearest - расстояние до центра, м
+
+* parks_around3000 - количество парков в радиусе 3 км
+
+* parks_nearest - расстояние до ближайшего парка, м
+
+* ponds_around3000 - количество водоёмов в радиусе 3 км
+
+ponds_nearest - расстояние до ближайшего водоёма, м
+
+days_exposition - количество дней продажи
